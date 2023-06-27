@@ -11,7 +11,7 @@ const Chile = () => {
   const [region, setRegion] = useState(); 
   const [communes, setCommunes] = useState([]);
   const [selectedRegion, setSelectedRegion] = useState("#");
-  const [selectedCommune, setSelectedCommune] = useState("#");
+  const [selectedCommune, setSelectedCommune] = useState("#"); 
 
 
   function sortCommunesByRegion(regionId) {
