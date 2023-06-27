@@ -1,0 +1,52 @@
+.filter-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+	.filter-section {
+		flex-direction: row;
+	}
+}
+
+.sort-section {
+	display: flex;
+}
+
+
+.search-box{
+	margin-top: 20px;
+}
+
+
+@media(min-width: 768px) {
+	.search-box{
+		margin-top: 0;
+	}
+}
+
+.character-img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.character-box {
+	display: none;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.characterInfo-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	line-height: 25px;
+	gap: 5px;
+}
+
+.origin-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
